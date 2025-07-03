@@ -1,11 +1,11 @@
-package com.metaverse.springprepare.controller;
+package com.metaverse.springprepare;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HelloController {
+public class springpractice {
 
     @GetMapping("api/hello")
     @ResponseBody
